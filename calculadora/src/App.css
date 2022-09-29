@@ -3,13 +3,14 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: black;
 }
 
 .contenedor-calculadora {
   width: 400px;
   height: 600px;
   padding: 14px;
-  background-color: white;
+  background-color: #323f7e;
 }
 
 .fila {
