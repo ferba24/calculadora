@@ -13,6 +13,8 @@
     cursor: pointer;
     user-select: none;
     flex: 1 1;
+    padding: unset;
+    user-select: none;
 }
 .operador{
     background-color: #3a782b;
@@ -31,6 +33,7 @@
     border: 2px solid white;
     cursor: pointer;
     border-radius: 45px;
+    user-select: none;
 }
 
 .boton-clear:hover {
