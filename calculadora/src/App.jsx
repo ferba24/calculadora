@@ -7,10 +7,11 @@ import { evaluate } from "mathjs";
 
 function App() {
   const [input, setInput] = useState("");
-  const operadores = ["x", "/", "+", "-"];
+  const operadores = ["*", "/", "+", "-"];
 
   const agregarInput = (val) => {
-    if (operadores.includes(input) && operadores.includes(val)) {
+    // comprobamos que no sean 2 operadores los ingresados
+    if (operadores.includes(input.at(-1)) && operadores.includes(val)) {
       alert("no puedes agregar dos operadores");
     } else {
       setInput(input + val);
